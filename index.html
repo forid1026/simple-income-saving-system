@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income And Saving System</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Income and Saving System</h2>
+        </div>
+        <div class="calculate-wrapper">
+            <div class="image-div">
+                <img src="./assets/image/download.jpg" alt="">
+            </div>
+            <div class="calculate-div">
+                <div class="calculate-info">
+                    <h2>Income</h2>
+                    <div class="income-info">
+                        Income: <input type="text" id="income-amount">
+                    </div>
+                    <div class="expense-info">
+                        <label for="">Food</label>
+                        <input type="text" id="food-expense">
+                        <label for="">Rent</label>
+                        <input type="text" id="rent-expense">
+                        <label for="">Cloth</label>
+                        <input type="text" id="cloth-expense">
+
+                        <button id="btn-calculate">Calculate</button>
+                        <h3>Total Expenses: <span id="expenses">0</span></h3>
+                        <h3>Balance: <span id="current-balance">0</span></h3>
+                        <div class="saving-info">
+                            <div id="save-input">
+                                <label for=""></label>save
+                                <input type="text" id="saving-amount">
+                            </div>
+                            <div>%</div>
+                            <div>
+                                <button id="saving-button">Save</button>
+                            </div>
+                        </div>
+                        <h3>Saving Amount: <span id="saving-text">0</span></h3>
+                        <h3>Remaining Balance: <span id="remaining-balance">0</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

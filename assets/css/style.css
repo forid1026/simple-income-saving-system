@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.container {
+  max-width: 1142px;
+  margin: 0 auto;
+}
+.title h2 {
+  text-align: center;
+  font-size: 3rem;
+  border-bottom: 2px solid;
+}
+
+.calculate-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.calculate-div {
+  text-align: center;
+  background: #f7f7f7;
+  padding: 2rem;
+}
+
+.income-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.expense-info input {
+  margin-bottom: 0.5rem;
+}
+
+.expense-info button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.saving-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 0.5rem 2rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+@media screen and (max-width: 540px) {
+  .calculate-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
